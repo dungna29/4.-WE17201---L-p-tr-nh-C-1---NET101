@@ -1,0 +1,7 @@
+E:\Dungna29 Fpoly\8. Demo\Demo C#1\FALL21_Block1\4.-WE17201---L-p-tr-nh-C-1---NET101\4_WE17201_NET101_FALL21\Bai_1.3_NhapXuatTuBanPhim\bin\Debug\Bai_1.3_NhapXuatTuBanPhim.exe.config
+E:\Dungna29 Fpoly\8. Demo\Demo C#1\FALL21_Block1\4.-WE17201---L-p-tr-nh-C-1---NET101\4_WE17201_NET101_FALL21\Bai_1.3_NhapXuatTuBanPhim\bin\Debug\Bai_1.3_NhapXuatTuBanPhim.exe
+E:\Dungna29 Fpoly\8. Demo\Demo C#1\FALL21_Block1\4.-WE17201---L-p-tr-nh-C-1---NET101\4_WE17201_NET101_FALL21\Bai_1.3_NhapXuatTuBanPhim\bin\Debug\Bai_1.3_NhapXuatTuBanPhim.pdb
+E:\Dungna29 Fpoly\8. Demo\Demo C#1\FALL21_Block1\4.-WE17201---L-p-tr-nh-C-1---NET101\4_WE17201_NET101_FALL21\Bai_1.3_NhapXuatTuBanPhim\obj\Debug\Bai_1.3_NhapXuatTuBanPhim.csproj.AssemblyReference.cache
+E:\Dungna29 Fpoly\8. Demo\Demo C#1\FALL21_Block1\4.-WE17201---L-p-tr-nh-C-1---NET101\4_WE17201_NET101_FALL21\Bai_1.3_NhapXuatTuBanPhim\obj\Debug\Bai_1.3_NhapXuatTuBanPhim.csproj.CoreCompileInputs.cache
+E:\Dungna29 Fpoly\8. Demo\Demo C#1\FALL21_Block1\4.-WE17201---L-p-tr-nh-C-1---NET101\4_WE17201_NET101_FALL21\Bai_1.3_NhapXuatTuBanPhim\obj\Debug\Bai_1.3_NhapXuatTuBanPhim.exe
+E:\Dungna29 Fpoly\8. Demo\Demo C#1\FALL21_Block1\4.-WE17201---L-p-tr-nh-C-1---NET101\4_WE17201_NET101_FALL21\Bai_1.3_NhapXuatTuBanPhim\obj\Debug\Bai_1.3_NhapXuatTuBanPhim.pdb
