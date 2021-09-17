@@ -33,12 +33,33 @@ namespace Bai_1._3_NhapXuatTuBanPhim
             Console.WriteLine("Chào bạn: Hương Năm Sinh: 2000 Trường: Fpoly");
 
             //Phần 2: Nhập dữ liệu từ bàn phím
-            //Viết 1 chương trình nhập tên và in ra màn hình
+            //Ví dụ: Viết 1 chương trình nhập tên và in ra màn hình
+
+            //Bước 1: Xác định số lượng biến cần sử dụng và kiểu dữ liệu
             string name;
-            Console.Write("Mời bạn nhập tên: ");//Chỉ dẫn cho người dùng cần phải làm gì
-            name = Console.ReadLine();//Gán giá trị do người dùng nhập vào Console.ReadLine() có kiểu dữ liệu là string
+
+            //Bước 2: Chỉ dẫn cho người dùng cần phải làm gì
+            Console.Write("Mời bạn nhập tên: ");
+
+            //Bước 3: Gán giá trị do người dùng nhập vào Console.ReadLine() có kiểu dữ liệu là string
+            name = Console.ReadLine();
+          
+            //Bước 4: Thực thi
             Console.WriteLine("Chào bạn " + name);//Hành động cuối in ra màn hình
 
+
+
+            //Console.Read() - Có kiểu số nguyên
+            int temp;
+            Console.WriteLine("Mời bạn nhập 1 ký tự: ");
+            temp = Console.Read();
+            Console.WriteLine("Giá trị Console.Read() = " + temp);
+            /*
+             * Mã ASII
+             * a = 97
+             * A = 65
+             */
+            
         }
     }
 }
