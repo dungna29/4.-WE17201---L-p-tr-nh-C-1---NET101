@@ -1,0 +1,7 @@
+E:\Dungna29 Fpoly\8. Demo\Demo C#1\FALL21_Block1\4.-WE17201---L-p-tr-nh-C-1---NET101\4_WE17201_NET101_FALL21\Bai_1.9_ToanTuBaNgoi\bin\Debug\Bai_1.9_ToanTuBaNgoi.exe.config
+E:\Dungna29 Fpoly\8. Demo\Demo C#1\FALL21_Block1\4.-WE17201---L-p-tr-nh-C-1---NET101\4_WE17201_NET101_FALL21\Bai_1.9_ToanTuBaNgoi\bin\Debug\Bai_1.9_ToanTuBaNgoi.exe
+E:\Dungna29 Fpoly\8. Demo\Demo C#1\FALL21_Block1\4.-WE17201---L-p-tr-nh-C-1---NET101\4_WE17201_NET101_FALL21\Bai_1.9_ToanTuBaNgoi\bin\Debug\Bai_1.9_ToanTuBaNgoi.pdb
+E:\Dungna29 Fpoly\8. Demo\Demo C#1\FALL21_Block1\4.-WE17201---L-p-tr-nh-C-1---NET101\4_WE17201_NET101_FALL21\Bai_1.9_ToanTuBaNgoi\obj\Debug\Bai_1.9_ToanTuBaNgoi.csproj.AssemblyReference.cache
+E:\Dungna29 Fpoly\8. Demo\Demo C#1\FALL21_Block1\4.-WE17201---L-p-tr-nh-C-1---NET101\4_WE17201_NET101_FALL21\Bai_1.9_ToanTuBaNgoi\obj\Debug\Bai_1.9_ToanTuBaNgoi.csproj.CoreCompileInputs.cache
+E:\Dungna29 Fpoly\8. Demo\Demo C#1\FALL21_Block1\4.-WE17201---L-p-tr-nh-C-1---NET101\4_WE17201_NET101_FALL21\Bai_1.9_ToanTuBaNgoi\obj\Debug\Bai_1.9_ToanTuBaNgoi.exe
+E:\Dungna29 Fpoly\8. Demo\Demo C#1\FALL21_Block1\4.-WE17201---L-p-tr-nh-C-1---NET101\4_WE17201_NET101_FALL21\Bai_1.9_ToanTuBaNgoi\obj\Debug\Bai_1.9_ToanTuBaNgoi.pdb
