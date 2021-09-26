@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = BAI_TAP_MAU_LIST_ARRAYLIST
+build_property.ProjectDir = E:\Dungna29 Fpoly\8. Demo\Demo C#1\FALL21_Block1\4.-WE17201---L-p-tr-nh-C-1---NET101\4_WE17201_NET101_FALL21\BAI_TAP_MAU_LIST_ARRAYLIST\
