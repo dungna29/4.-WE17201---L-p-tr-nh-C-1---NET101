@@ -39,7 +39,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bai_2.5_List", "Bai_2.5_Lis
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BAI_TAP_MAU_LIST_ARRAYLIST", "BAI_TAP_MAU_LIST_ARRAYLIST\BAI_TAP_MAU_LIST_ARRAYLIST.csproj", "{025FC78B-1699-4EBF-8F5B-150D78C587EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai_2.6_OOP_LapTrinhHuongDoiTuong", "Bai_2.6_OOP_LapTrinhHuongDoiTuong\Bai_2.6_OOP_LapTrinhHuongDoiTuong.csproj", "{72EEE29D-B09A-464D-8B78-3841735FCDF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bai_2.6_OOP_LapTrinhHuongDoiTuong", "Bai_2.6_OOP_LapTrinhHuongDoiTuong\Bai_2.6_OOP_LapTrinhHuongDoiTuong.csproj", "{72EEE29D-B09A-464D-8B78-3841735FCDF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAI_TAP_CHUA_LAB123", "BAI_TAP_CHUA_LAB123\BAI_TAP_CHUA_LAB123.csproj", "{B63D6ADF-1B94-4CF5-AE79-168B599733B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{72EEE29D-B09A-464D-8B78-3841735FCDF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72EEE29D-B09A-464D-8B78-3841735FCDF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72EEE29D-B09A-464D-8B78-3841735FCDF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B63D6ADF-1B94-4CF5-AE79-168B599733B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B63D6ADF-1B94-4CF5-AE79-168B599733B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B63D6ADF-1B94-4CF5-AE79-168B599733B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B63D6ADF-1B94-4CF5-AE79-168B599733B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
