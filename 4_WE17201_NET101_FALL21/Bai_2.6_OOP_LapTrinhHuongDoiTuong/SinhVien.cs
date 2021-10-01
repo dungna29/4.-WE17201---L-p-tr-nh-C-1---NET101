@@ -35,12 +35,12 @@ namespace Bai_2._6_OOP_LapTrinhHuongDoiTuong
           1. Chuột phải vào Class đối tượng chọn Quick Actions....
           2. Generate Contructor và bấm ok
        */
-        public SinhVien(string ten, string msv, int ns)
+        public SinhVien(string ten1, string msv, int ns)
         {
-            this.ten = ten;
+            ten = ten1;
             this.msv = msv;
             this.ns = ns;
-           
+            //this: dùng tham chiếu đến thuộc tính và phương thức của lớp hiện tại
         }
         //Phần 3: Triển khai property của thuộc tính
         /*
