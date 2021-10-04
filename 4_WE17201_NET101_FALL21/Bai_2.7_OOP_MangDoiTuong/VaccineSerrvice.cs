@@ -70,33 +70,37 @@ namespace Bai_2._7_OOP_MangDoiTuong
         {
             Console.WriteLine("Mời bạn nhập vào tên vacxin: ");
             _input = Console.ReadLine();
-            for (int i = 0; i < _arrVaccines.Length; i++)
-            {
-                if (_arrVaccines[i].TenVaccine == _input)
-                {
-                    _arrVaccines[i] = new Vaccine();//Khi tìm thấy khởi tạo lại nó thì các dữ liệu bên trong thuộc tính sẽ clear.
-                    return;
-                }
-            }
+            // for (int i = 0; i < _arrVaccines.Length; i++)
+            // {
+            //     if (_arrVaccines[i].TenVaccine == _input)
+            //     {
+            //         _arrVaccines[i] = new Vaccine();//Khi tìm thấy khởi tạo lại nó thì các dữ liệu bên trong thuộc tính sẽ clear.
+            //         return;
+            //     }
+            // }
+
+            //Cách 2: Sử dụng LINQ
+            _arrVaccines[_arrVaccines.ToList().FindIndex(c => c.TenVaccine == _input)] = new Vaccine();
             Console.WriteLine("Không tìm thấy loại Vaccine bạn cần");
         }
         public void timKiemVaccine()
         {
             Console.WriteLine("Mời bạn nhập vào tên vacxin: ");
             _input = Console.ReadLine();
-            for (int i = 0; i < _arrVaccines.Length; i++)
-            {
-                if (_arrVaccines[i].TenVaccine == _input)
-                {
-                    _arrVaccines[i].inRaManHinh();
-                    return;
-                }
-            }
+            _arrVaccines[_arrVaccines.ToList().FindIndex(c => c.TenVaccine == _input)].inRaManHinh();
+            // for (int i = 0; i < _arrVaccines.Length; i++)
+            // {
+            //     if (_arrVaccines[i].TenVaccine == _input)
+            //     {
+            //         _arrVaccines[i].inRaManHinh();
+            //         return;
+            //     }
+            // }
             Console.WriteLine("Không tìm thấy loại Vaccine bạn cần");
         }
         public void inDsVaccine()
         {
-            foreach (var x in _arrVaccines)
+            foreach (var x in _arrVaccines.OrderByDescending(c=>c.Nsx))
             {
                 x.inRaManHinh();
             }
