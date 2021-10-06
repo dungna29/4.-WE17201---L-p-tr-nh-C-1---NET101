@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Channels;
 using System.Threading.Tasks;
 
 namespace Bai_2._8_OOP_ListDoiTuong
 {
     class VaccineSerrvice
     {
-        private String _input;
+        private string _input;
         private Vaccine _vaccine;
         private List<Vaccine> _lstVaccines;//Khởi tạo 1 biến toàn cục có kiểu dữ liệu đối tượng
         public VaccineSerrvice()
@@ -19,9 +20,9 @@ namespace Bai_2._8_OOP_ListDoiTuong
 
         void them3DataFake()
         {
-            _lstVaccines.Add(new Vaccine("VN1","VNVID","VN",6));
-            _lstVaccines.Add(new Vaccine("CB1","VNCBVID","CUBA",9));
-            _lstVaccines.Add(new Vaccine("RUS1","RUSVID","NGA",12));
+            _lstVaccines.Add(new Vaccine("VN1", "VNVID", "VN", 6));
+            _lstVaccines.Add(new Vaccine("CB1", "VNCBVID", "CUBA", 9));
+            _lstVaccines.Add(new Vaccine("RUS1", "RUSVID", "NGA", 12));
         }
 
         public void addVaccine()
@@ -96,7 +97,7 @@ namespace Bai_2._8_OOP_ListDoiTuong
         {
             Console.WriteLine("Nhập Mã hoặc Tên Hoặc Nsx để tìm: ");
             _input = Console.ReadLine();
-            foreach (var x in _lstVaccines.Where(c=>c.TenVaccine.ToLower().StartsWith(_input.ToLower()) ||
+            foreach (var x in _lstVaccines.Where(c => c.TenVaccine.ToLower().StartsWith(_input.ToLower()) ||
                 c.MaVaccine.ToLower().StartsWith(_input.ToLower())))
             {
                 x.inRaManHinh();
@@ -104,7 +105,7 @@ namespace Bai_2._8_OOP_ListDoiTuong
         }
         public void getLstVaccineOrder()//Xuất danh sách đã sắp xếp
         {
-            foreach (var x in _lstVaccines.OrderBy(c=>c.ThoiGianTacDung))
+            foreach (var x in _lstVaccines.OrderBy(c => c.ThoiGianTacDung))
             {
                 x.inRaManHinh();
             }
@@ -120,6 +121,42 @@ namespace Bai_2._8_OOP_ListDoiTuong
                 }
             }
             return -5;
+        }
+
+
+        public void addVaccine1()
+        {
+            Console.WriteLine("Bạn muốn thêm bao nhiêu Vaccine: ");
+            _input = Console.ReadLine();
+            for (int i = 0; i < Convert.ToInt32(_input); i++)
+            {
+                _vaccine = new Vaccine();//Khởi tạo 1 đối tượng
+                _vaccine.MaVaccine = getInputValue("mã");
+                _vaccine.TenVaccine = getInputValue("tên");
+                _vaccine.Nsx = getInputValue("nsx");
+                _vaccine.ThoiGianTacDung = Convert.ToInt32(getInputValue("thời hạn tác dụng"));
+                //Sau khi gán giá trị của đối tượng do người dùng nhập vào tiến hành add đối tượng vào List
+                _lstVaccines.Add(_vaccine);
+            }
+        }
+        public void addVaccine2()
+        {
+           
+            _input = (getInputValue("bao nhiêu số lượng"));
+            for (int i = 0; i < Convert.ToInt32(_input); i++)
+            {
+                _lstVaccines.Add(new Vaccine(getInputValue("mã"), getInputValue("tên"), getInputValue("nsx"), Convert.ToInt32(getInputValue("thời hạn tác dụng"))));
+            }
+        }
+        public void timVaccine2()
+        {
+            _lstVaccines[_lstVaccines.FindIndex(c=>c.MaVaccine == getInputValue("mã"))].inRaManHinh();
+        }
+
+        public string getInputValue(string temp)
+        {
+            Console.WriteLine($"Mời bạn nhập {temp}: ");
+            return Console.ReadLine();
         }
     }
 }

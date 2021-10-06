@@ -45,7 +45,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BAI_TAP_CHUA_LAB123", "BAI_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bai_2.7_OOP_MangDoiTuong", "Bai_2.7_OOP_MangDoiTuong\Bai_2.7_OOP_MangDoiTuong.csproj", "{FE565E9F-03ED-4AE0-BA99-F0141075D469}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai_2.8_OOP_ListDoiTuong", "Bai_2.8_OOP_ListDoiTuong\Bai_2.8_OOP_ListDoiTuong.csproj", "{C61DD027-5B63-4821-A43D-47F0849EEC36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bai_2.8_OOP_ListDoiTuong", "Bai_2.8_OOP_ListDoiTuong\Bai_2.8_OOP_ListDoiTuong.csproj", "{C61DD027-5B63-4821-A43D-47F0849EEC36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai_2_9_Method_PhuongThuc", "Bai_2_9_Method_PhuongThuc\Bai_2_9_Method_PhuongThuc.csproj", "{53A4F163-FA5A-4570-9938-C6E1C630E0B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{C61DD027-5B63-4821-A43D-47F0849EEC36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C61DD027-5B63-4821-A43D-47F0849EEC36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C61DD027-5B63-4821-A43D-47F0849EEC36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53A4F163-FA5A-4570-9938-C6E1C630E0B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A4F163-FA5A-4570-9938-C6E1C630E0B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A4F163-FA5A-4570-9938-C6E1C630E0B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53A4F163-FA5A-4570-9938-C6E1C630E0B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

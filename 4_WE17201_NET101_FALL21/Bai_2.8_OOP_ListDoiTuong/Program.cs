@@ -23,7 +23,7 @@ namespace Bai_2._8_OOP_ListDoiTuong
                 switch (input)
                 {
                     case "1":
-                        serrvice.addVaccine();
+                        serrvice.addVaccine2();
                         break;
                     case "2":
                         serrvice.suaVaccine();
