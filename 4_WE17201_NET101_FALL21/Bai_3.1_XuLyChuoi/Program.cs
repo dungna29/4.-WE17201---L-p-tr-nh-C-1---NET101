@@ -1,5 +1,8 @@
 ﻿using System;
+using System.ComponentModel.Design;
+using System.Globalization;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace Bai_3._1_XuLyChuoi
 {
@@ -19,7 +22,7 @@ namespace Bai_3._1_XuLyChuoi
             str = "FPT POLYTECHNIC"; //gán giá trị chuỗi
             str1 = "xử lý chuỗi 1 trong c#";
             str2 = "xử lý chuỗi 2 trong c#";
-            
+
             /*
              * 2. Lấy chiều dài chuỗi: str.Length: lấy chiều dài chuỗi
              */
@@ -98,8 +101,71 @@ namespace Bai_3._1_XuLyChuoi
             KyTuCanXoa: là 1 ký tự hoặc 1 mảng ký tự cần xóa
              */
             #endregion
+
+            string name;
+            do
+            {
+                Console.WriteLine("Mời bạn nhập đầy đủ họ tên: ");
+                name = Console.ReadLine();
+                var temp = name.Trim();
+                var arrName = temp.Split(',');
+                foreach (var x in arrName)
+                {
+                    Console.Write(vietHoaChuCaiDau(x + " "));
+                }
+            } while (true);
+
+
+        }
+
+       static string vietHoaChuCaiDau(string text)
+        {
+            return Convert.ToString(text[0]).ToUpper()+text.Substring(1).ToLower();
+        }
+
+        static void nhapSo()
+        {
+            string input;
+            do
+            {
+                Console.WriteLine("Mời bạn nhập chữ: ");
+                input = Console.ReadLine();
+            } while (!checkChu(input));
         }
         
+        static bool checkSo(string text)
+        {
+            #region Cách 1: Sử dụng tryParse
+            // if (!int.TryParse(text, out _))//out là 1 từ khóa được sử dụng để truyền các đối số như 1 kiểu tham chiếu.
+            // {
+            //     Console.WriteLine("Mời bạn nhập số nguyên lại lần nữa");
+            //     return false;
+            // }
+            // Console.WriteLine("Chúc mừng bạn đã nhập đúng");
+            // return true;
+
+
+            #endregion
+
+            #region Cách 2: Sử dụng Regex
+            return Regex.IsMatch(text, @"^\d+$");
+            #endregion
+        }  
+        static bool checkChu(string text)
+        {
+
+            #region Cách 2: Sử dụng Regex
+            return Regex.IsMatch(text, @"^[a-z]+$");
+            #endregion
+        }
+        /*
+         * Bài tập 1: Viết 1 chương trình cho phép nhập bất cứ thứ gì từ bàn phím. Nhưng nhập xong thông báo cái người dùng nhập là số hay chữ, ký tự.
+         *
+         * Bài tập 2: Cho người dùng nhập vào tên đày đủ:
+         * nguyen anh dung => chuyển đổi nó Nguyễn Anh Dũng
+         * NGUYỄN ANH DŨNG => giống như trên
+         * Cần viết hoa chữ cái đầu của 1 từ.
+         */
 
     }
 }

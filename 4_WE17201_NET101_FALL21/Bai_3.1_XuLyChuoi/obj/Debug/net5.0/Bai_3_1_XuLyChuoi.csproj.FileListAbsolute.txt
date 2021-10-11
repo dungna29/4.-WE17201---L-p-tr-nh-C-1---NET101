@@ -13,3 +13,4 @@ E:\Dungna29 Fpoly\8. Demo\Demo C#1\FALL21_Block1\4.-WE17201---L-p-tr-nh-C-1---NE
 E:\Dungna29 Fpoly\8. Demo\Demo C#1\FALL21_Block1\4.-WE17201---L-p-tr-nh-C-1---NET101\4_WE17201_NET101_FALL21\Bai_3.1_XuLyChuoi\obj\Debug\net5.0\ref\Bai_3_1_XuLyChuoi.dll
 E:\Dungna29 Fpoly\8. Demo\Demo C#1\FALL21_Block1\4.-WE17201---L-p-tr-nh-C-1---NET101\4_WE17201_NET101_FALL21\Bai_3.1_XuLyChuoi\obj\Debug\net5.0\Bai_3_1_XuLyChuoi.pdb
 E:\Dungna29 Fpoly\8. Demo\Demo C#1\FALL21_Block1\4.-WE17201---L-p-tr-nh-C-1---NET101\4_WE17201_NET101_FALL21\Bai_3.1_XuLyChuoi\obj\Debug\net5.0\Bai_3_1_XuLyChuoi.genruntimeconfig.cache
+E:\Dungna29 Fpoly\8. Demo\Demo C#1\FALL21_Block1\4.-WE17201---L-p-tr-nh-C-1---NET101\4_WE17201_NET101_FALL21\Bai_3.1_XuLyChuoi\obj\Debug\net5.0\Bai_3_1_XuLyChuoi.csproj.AssemblyReference.cache
