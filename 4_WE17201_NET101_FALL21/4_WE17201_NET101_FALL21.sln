@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bai_2.8_OOP_ListDoiTuong", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bai_2_9_Method_PhuongThuc", "Bai_2_9_Method_PhuongThuc\Bai_2_9_Method_PhuongThuc.csproj", "{53A4F163-FA5A-4570-9938-C6E1C630E0B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai_3_0_OOP_TinhKeThua", "Bai_3_0_OOP_TinhKeThua\Bai_3_0_OOP_TinhKeThua.csproj", "{01F3661B-118E-49E2-92DB-209B5A4C4821}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bai_3_0_OOP_TinhKeThua", "Bai_3_0_OOP_TinhKeThua\Bai_3_0_OOP_TinhKeThua.csproj", "{01F3661B-118E-49E2-92DB-209B5A4C4821}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai_3_1_XuLyChuoi", "Bai_3.1_XuLyChuoi\Bai_3_1_XuLyChuoi.csproj", "{4FADC7BD-0073-4BBB-9C70-BB26D0DF8A05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{01F3661B-118E-49E2-92DB-209B5A4C4821}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01F3661B-118E-49E2-92DB-209B5A4C4821}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01F3661B-118E-49E2-92DB-209B5A4C4821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FADC7BD-0073-4BBB-9C70-BB26D0DF8A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FADC7BD-0073-4BBB-9C70-BB26D0DF8A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FADC7BD-0073-4BBB-9C70-BB26D0DF8A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FADC7BD-0073-4BBB-9C70-BB26D0DF8A05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

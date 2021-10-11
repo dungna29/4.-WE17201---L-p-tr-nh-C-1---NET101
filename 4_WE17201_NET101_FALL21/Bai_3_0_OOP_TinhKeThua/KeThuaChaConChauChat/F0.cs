@@ -37,6 +37,7 @@ namespace Bai_3_0_OOP_TinhKeThua.KeThuaChaConChauChat
         {
 
         }
+
         private void method2(string a, int b)
         {
 
