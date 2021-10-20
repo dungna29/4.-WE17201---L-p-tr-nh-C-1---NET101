@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.Design;
 using System.Globalization;
 using System.Text;
@@ -108,7 +109,7 @@ namespace Bai_3._1_XuLyChuoi
                 Console.WriteLine("Mời bạn nhập đầy đủ họ tên: ");
                 name = Console.ReadLine();
                 var temp = name.Trim();
-                var arrName = temp.Split(',');
+                var arrName = temp.Split("\\s+");
                 foreach (var x in arrName)
                 {
                     Console.Write(vietHoaChuCaiDau(x + " "));
@@ -166,6 +167,6 @@ namespace Bai_3._1_XuLyChuoi
          * NGUYỄN ANH DŨNG => giống như trên
          * Cần viết hoa chữ cái đầu của 1 từ.
          */
-
+        private List<string> lst = new List<string>();
     }
 }
